@@ -1,0 +1,70 @@
+.sidebar {
+  flex: 1;
+  border-right: 2px solid gainsboro;
+  min-height: 100vh;
+}
+.top {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.admin {
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hr {
+  border: 0.5px solid gainsboro;
+  height: 0;
+}
+.center {
+  padding-left: 30px;
+}
+.center ul {
+  list-style: none;
+}
+.center li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 5px;
+  cursor: pointer;
+}
+.center li:hover {
+  background-color: rgb(221, 221, 220);
+}
+.center span {
+  color: rgb(157, 155, 155);
+}
+.title {
+  font-size: 10px;
+  color: gray;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.icon {
+  color: blueviolet;
+}
+.bottom {
+  display: flex;
+  cursor: pointer;
+  padding-left: 30px;
+  margin-top: 15px;
+  margin-left: 5px;
+  gap: 5px;
+}
+.option_one {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #333;
+}
+.option_two {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
