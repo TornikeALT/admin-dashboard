@@ -4,3 +4,8 @@
 .container {
   flex: 6;
 }
+.widgets {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
