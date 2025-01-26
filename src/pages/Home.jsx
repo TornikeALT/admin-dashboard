@@ -4,6 +4,7 @@ import classes from "../styles/home.module.css";
 import Widget from "../components/Widget";
 import Features from "../components/Features";
 import Charts from "../components/Charts";
+import Tables from "../components/Tables";
 
 function Home() {
   return (
@@ -20,6 +21,10 @@ function Home() {
         <div className={classes.charts}>
           <Features />
           <Charts />
+        </div>
+        <div className={classes.list_container}>
+          <div className={classes.list_title}>Latest Transactions</div>
+          <Tables />
         </div>
       </div>
     </div>

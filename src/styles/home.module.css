@@ -10,3 +10,13 @@
   gap: 20px;
   padding: 20px;
 }
+.list_container {
+  box-shadow: 0px -1px 11px 4px #000000;
+  margin: 20px;
+  padding: 20px;
+}
+.list_title {
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 15px;
+}

@@ -6,6 +6,7 @@ import { CircularProgress, Box } from "@mui/material";
 
 function Features() {
   let value = 70;
+
   return (
     <div className={classes.features}>
       <div className={classes.top}>
