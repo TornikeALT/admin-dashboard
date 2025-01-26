@@ -1,0 +1,68 @@
+.single {
+  display: flex;
+  width: 100%;
+}
+.single_container {
+  flex: 6;
+}
+.top {
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+.left {
+  flex: 1;
+  box-shadow: 0px -1px 11px 4px #000000;
+  padding: 20px;
+  position: relative;
+}
+.right {
+  flex: 2;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.item {
+  display: flex;
+  gap: 20px;
+}
+.edit_btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(45, 4, 45, 0.176);
+  color: purple;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.details_title {
+  margin-bottom: 10px;
+  color: gray;
+}
+.details_item {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.item_key {
+  font-weight: bold;
+  color: gray;
+  margin-right: 5px;
+}
+
+.item_value {
+  font-weight: 300;
+}
+.title {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 10px;
+}
+.bottom {
+  box-shadow: 0px -1px 11px 4px #000000;
+  padding: 20px;
+  margin: 20px;
+}
