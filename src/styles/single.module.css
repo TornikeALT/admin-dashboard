@@ -12,7 +12,7 @@
 }
 .left {
   flex: 1;
-  box-shadow: 0px -1px 11px 4px #000000;
+  box-shadow: 0px -1px 11px 4px #858383;
   padding: 20px;
   position: relative;
 }
@@ -62,7 +62,7 @@
   margin-bottom: 10px;
 }
 .bottom {
-  box-shadow: 0px -1px 11px 4px #000000;
+  box-shadow: 0px -1px 11px 4px #858383;
   padding: 20px;
   margin: 20px;
 }

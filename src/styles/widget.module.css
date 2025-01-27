@@ -3,8 +3,8 @@
   justify-content: space-between;
   flex: 1;
   padding: 10px;
-  -webkit-box-shadow: 0px -1px 11px 4px #000000;
-  box-shadow: 0px -1px 11px 4px #000000;
+  -webkit-box-shadow: 0px -1px 11px 4px #948b8b;
+  box-shadow: 0px -1px 11px 4px #858383;
   min-height: 150px;
 }
 .left,
